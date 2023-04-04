@@ -231,3 +231,21 @@ form {
   font-weight: 600;
   margin-bottom: 30px;
 }
+
+@media(max-width: 900px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .home__info {
+    right: 0;
+  }
+
+  .pages {
+    flex-wrap: wrap;
+  }
+
+  form {
+    flex-direction: column;
+  }
+}
